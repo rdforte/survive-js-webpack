@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background: cornsilk;
+  background-image: url("./webpack-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-position-y: calc(100vh / 3);
+}
