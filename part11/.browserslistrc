@@ -1,0 +1,7 @@
+# support old IE
+[legacy]
+IE 8
+
+# support moder browsers
+[modern]
+> 1%  # Browser usage over 1%
