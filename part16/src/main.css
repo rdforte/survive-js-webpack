@@ -6,6 +6,8 @@
   font-family: lobster;
 }
 
+/* Adding a comment to see if CSS Minizer removes it */
+
 body {
   background: cornsilk;
   background-image: url("./webpack-logo.png");
