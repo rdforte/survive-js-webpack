@@ -1,0 +1,26 @@
+{
+  "name": "part25",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.ssr.js",
+  "dependencies": {
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.73.0",
+    "webpack-nano": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "express": "^4.18.1"
+  },
+  "scripts": {
+    "build:ssr": "wp --config webpack.ssr.js",
+    "dev:server": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
