@@ -29,7 +29,7 @@ const productionConfig = merge([
 			chunkFilename: '[name].[contenthash].js',
 			filename: '[name].[contenthash].js',
 			assetModuleFilename: '[name].[contenthash][ext][query]',
-			publicPath: '/survive-js-webpack'
+			publicPath: '/survive-js-webpack/'
 		}
 	},
 	parts.eliminateUnusedCSS(),
