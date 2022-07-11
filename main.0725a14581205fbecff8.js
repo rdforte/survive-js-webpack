@@ -1,0 +1,3 @@
+/*! For license information please see main.0725a14581205fbecff8.js.LICENSE.txt */
+"use strict";(self.webpackChunksurvive_js_webpack=self.webpackChunksurvive_js_webpack||[]).push([[179],{5010:function(e,n,t){t(7294),t(3935);console.log("bake"),document.body.appendChild(function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"hello from config",n=document.createElement("div"),o=new Worker(new URL(t.p+t.u(838),t.b)),c={text:e};return o.addEventListener("message",(function(e){var t=e.data.text;console.log("text:",t),c.text=t,n.innerHTML=t})),n.innerHTML=c.text,n.onclick=function(){return o.postMessage({text:c.text})},n}())}},function(e){e.O(0,[799],(function(){return n=5010,e(e.s=n);var n}));e.O()}]);
+//# sourceMappingURL=main.0725a14581205fbecff8.js.map
